@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  
+}
+
+a {
+  box-sizing: border-box;
+  text-decoration: none;
+}
