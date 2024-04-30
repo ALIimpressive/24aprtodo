@@ -1,8 +1,11 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-
+import productSlice from "../feature/slices/productSlice";
 
 const rootReducer = combineReducers({
+  money: productSlice,
 });
+
+const API = "https://jsonplaceholder.typicode.com/photos";
 
 export const setupStore = () => {
   return configureStore({
